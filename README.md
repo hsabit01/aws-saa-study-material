@@ -10,6 +10,7 @@ This README provides a one-view index of the AWS Solutions Architect Associate t
 4. <a href="#databases-dns-and-platform-services" target="_blank" rel="noopener noreferrer">Databases, DNS, and Platform Services</a>
 5. <a href="#storage-security-and-content-delivery" target="_blank" rel="noopener noreferrer">Storage, Security, and Content Delivery</a>
 6. <a href="#messaging-and-streaming" target="_blank" rel="noopener noreferrer">Messaging and Streaming</a>
+7. <a href="#serverless-apis-and-identity" target="_blank" rel="noopener noreferrer">Serverless, APIs, and Identity</a>
 
 ## Overview
 
@@ -30,6 +31,7 @@ This README provides a one-view index of the AWS Solutions Architect Associate t
 | 13. AWS Storage Extras | Storage, Security, and Content Delivery | <a href="https://quizlet.com/tr/1165814028/13aws-storage-extras-flash-cards/?i=5yz8hi&x=1jqt" target="_blank" rel="noopener noreferrer">Flashcards</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSfy43TuYJhW-logjGKJu4CBKVfi4ghkvVjUX62MVSBhqCgRJQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Quiz</a> |
 | 14. SQS, SNS, Kinesis, Active MQ | Messaging and Streaming | <a href="https://quizlet.com/tr/1165814746/14sqs-sns-kinesis-active-mq-flash-cards/?i=5yz8hi&x=1jqt" target="_blank" rel="noopener noreferrer">Flashcards</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dvHTSuqpawY9kDxIpvumt12g_OR9r3ks_VwWaJIxEKXKNg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Quiz</a> |
 | 15. Containers on AWS: ECS, Fargate, ECR & EKS | Containers and Orchestration | <a href="https://quizlet.com/tr/1165994820/15containers-on-aws-ecs-fargate-ecr-eks-flash-cards/?i=5yz8hi&x=1jqt" target="_blank" rel="noopener noreferrer">Flashcards</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSexbSYlU7WjR3zpFpIzAbKACGIjsub4a9nuPmvp5TQH8VYhKg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Quiz</a> |
+| 16. AWS Server Solutions | Serverless, APIs, and Identity | <a href="https://quizlet.com/tr/1166453189/16aws-server-solutions-flash-cards/?i=5yz8hi&x=1jqt" target="_blank" rel="noopener noreferrer">Flashcards</a> | <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3wzwdHgyjqxhT75s4sn1KAbOVdefmOK3bD0ppoRWvF_Lodg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Quiz</a> |
 
 ## Identity, Compute, and Availability
 
@@ -70,3 +72,9 @@ This README provides a one-view index of the AWS Solutions Architect Associate t
 | Category | MCQ Set | Description | Topics Covered | Link |
 | --- | --- | --- | --- | --- |
 | Messaging and Streaming | 14. SQS, SNS, Kinesis, Active MQ | Queuing, pub/sub, streaming, autoscaling, and managed brokers. | Amazon SQS<br>Amazon SQS Consumer Autoscaling using SQS metrics<br>Amazon SQS Security<br>AWS SQS Visibility Timeout<br>AWS SQS Long Polling<br>AWS SQS FIFO<br>Amazon SNS<br>Amazon SNS Security<br>Amazon SNS + SQS Fan out<br>Amazon Kinesis Data Stream<br>Amazon Data Firehose<br>Amazon Data Firehose vs Amazon Kinesis Data Stream<br>SQS vs SNS vs Kinesis<br>Amazon MQ | <a href="https://quizlet.com/tr/1165814746/14sqs-sns-kinesis-active-mq-flash-cards/?i=5yz8hi&x=1jqt" target="_blank" rel="noopener noreferrer">Flashcards</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6dvHTSuqpawY9kDxIpvumt12g_OR9r3ks_VwWaJIxEKXKNg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Quiz</a> |
+
+## Serverless, APIs, and Identity
+
+| Category | MCQ Set | Description | Topics Covered | Link |
+| --- | --- | --- | --- | --- |
+| Serverless, APIs, and Identity | 16. AWS Server Solutions | Serverless compute, NoSQL data services, API management, workflow orchestration, and user identity. | Lambda<br>Lambda Concurrency Error<br>Lambda Cold Starts & Provisioned Concurrency<br>Reserved and Provisioned Concurrency<br>lambda snapstart<br>Lambda@Edge & CloudFront Function<br>Amazon DynamoDB<br>Amazon DynamoDB Accelerator (DAX)<br>DynamoDB Accelerator (DAX) vs. ElastiCache<br>DynamoDB – Stream Processing<br>DynamoDB – Stream Processing vs Kinesis Data Streams (Newer)<br>AWS API Gateway<br>AWS API Gateway - Endpoint Types<br>AWS API Gateway - Security<br>AWS Step Functions<br>Amazon Cognito | <a href="https://quizlet.com/tr/1166453189/16aws-server-solutions-flash-cards/?i=5yz8hi&x=1jqt" target="_blank" rel="noopener noreferrer">Flashcards</a> / <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3wzwdHgyjqxhT75s4sn1KAbOVdefmOK3bD0ppoRWvF_Lodg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Quiz</a> |
