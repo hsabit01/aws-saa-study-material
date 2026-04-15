@@ -1,19 +1,10 @@
 # AWS SAA MCQ Resource Index
 
-This README provides a one-view index of every AWS Solutions Architect Associate MCQ resource listed in `MCQ.md`. It consolidates Quizlet flashcards, Google Form quizzes, and topic coverage into a single page, including the newly added `19. Machine Learning` section.
+This README provides a one-view index of every AWS Solutions Architect Associate MCQ resource listed in `MCQ.md`. It consolidates Quizlet flashcards and Google Form quizzes into a single overview so every resource can be accessed quickly from one place.
 
 Topic names and phrasing are preserved from the source where possible so the index stays aligned with the original material.
 
-## Table of Contents
-
-- [Quick Index](#quick-index)
-- [Identity, Compute, and Availability](#identity-compute-and-availability)
-- [Databases, DNS, and Platform Services](#databases-dns-and-platform-services)
-- [Storage, Security, and Content Delivery](#storage-security-and-content-delivery)
-- [Messaging, Containers, and Serverless](#messaging-containers-and-serverless)
-- [Data Platforms, Analytics, and Machine Learning](#data-platforms-analytics-and-machine-learning)
-
-## Quick Index
+## Overview
 
 | # | Category | Title / Topic | Flashcards | Quiz |
 | --- | --- | --- | --- | --- |
@@ -36,47 +27,3 @@ Topic names and phrasing are preserved from the source where possible so the ind
 | 17 | Data Platforms, Analytics, and Machine Learning | 17. AWS Databases | [Quizlet](https://quizlet.com/tr/1166911459/17aws-databases-expanded-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSd4joFcvAZnip1d5tgSRXFTUntaJANhv_ShHQKarzTC9iy_jg/viewform?usp=publish-editor) |
 | 18 | Data Platforms, Analytics, and Machine Learning | 18. Data Analytics | [Quizlet](https://quizlet.com/tr/1167740273/18data-analytics-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfXm9xOhPhOJAO55u0fBMemEaUZyAwwZ3JCkgMLgHluoIelbA/viewform?usp=publish-editor) |
 | 19 | Data Platforms, Analytics, and Machine Learning | 19. Machine Learning | [Quizlet](https://quizlet.com/tr/1167980459/19machine-learning-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdv-47-usGq94KFdZOH7mKnZnk4fBk-UcXi7B_cqxDT57w4wA/viewform?usp=publish-editor) |
-
-## Identity, Compute, and Availability
-
-| Category | Title / Topic | Description | Flashcards | Quiz |
-| --- | --- | --- | --- | --- |
-| Identity, Compute, and Availability | 1. IAM | IAM users, groups, and policies<br>IAM Roles for services<br>IAM Credential Report<br>IAM Access Advisor (Service Last Accessed data) | [Quizlet](https://quizlet.com/tr/1165807359/1iam-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSe6LbMBr-i6GTY9q2fIlK4PmgW5YJlfBQ_DbIwTfEemvGP9MA/viewform?usp=publish-editor) |
-| Identity, Compute, and Availability | 2. EC2 Basics | EC2 Basics<br>EC2 Sizing & Configuration Options<br>EC2 Instance Types<br>Security Group<br>EC2 SSH Connection<br>EC2 IAM Role<br>EC2 Purchase Options | [Quizlet](https://quizlet.com/tr/1165807636/2ec2-basics-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeg2TxyRhMGOuICHSpXszP5dddppFI4G0xHTVS-a1vUaD_BTQ/viewform?usp=publish-editor) |
-| Identity, Compute, and Availability | 3. EC2 Placement Groups & Networking | Elastic IP<br>Placement Groups<br>Cluster Placement Group<br>Spread Placement Group<br>Partition Placement Group<br>Elastic Network Interface (ENI)<br>EC2 Hibernate | [Quizlet](https://quizlet.com/tr/1165808542/3ec2-placement-groups-networking-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeiW89mBvSVv0zf8pG4tY46SxK74C--yK0w_23SExXpqKK79A/viewform?usp=publish-editor) |
-| Identity, Compute, and Availability | 4. EC2 Storage | Elastic Storage Block (ESB)<br>EBS Snapshot<br>EBS Snapshot Features<br>Amazon Machine Image (AMI)<br>EBS Volume Types<br>EBS Multi-Attach<br>Elastic File System (EFS)<br>EFS Use Cases and Access<br>EFS Performance and Throughput Modes<br>EFS Storage Classes and Lifecycle Tiers<br>EBS vs EFS vs Instance Store | [Quizlet](https://quizlet.com/tr/1165808985/4ec2-storage-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdMNmH5dWUMaCPqH4mS5kcftG9sgKeU3Q1pt3ICNFsBTU3ODg/viewform?usp=publish-editor) |
-| Identity, Compute, and Availability | 5. Scalability and Availability | Scalability and Availability<br>Horizontal Scalability<br>Horizontal Scalability<br>Elastic Load Balancers<br>Application Load Balancer (ALB)<br>Network Load Balancer<br>Server Name Indication<br>Gateway Load Balancer (GWLB)<br>Target Groups<br>Sticky Sessions<br>Cross-Zone Load Balancing<br>Connection Draining<br>Auto Scaling Group<br>Scaling Policies<br>Scaling Cooldown | [Quizlet](https://quizlet.com/tr/1165809314/5scalability-and-availability-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfpkaeuxX2cuWCOa6IO1_R1hz9MPBt8jByMEAyOqrwck2xEoQ/viewform?usp=publish-editor) |
-
-## Databases, DNS, and Platform Services
-
-| Category | Title / Topic | Description | Flashcards | Quiz |
-| --- | --- | --- | --- | --- |
-| Databases, DNS, and Platform Services | 6. RDS, Aurora, and ElastiCache | RDS<br>RDS Multi Replica vs Multi AZ<br>Aurora<br>RDS and Aurora Backup and Monitoring<br>RDS and Aurora Security<br>RDS Proxy<br>ElastiCache<br>ElastiCache Security | [Quizlet](https://quizlet.com/tr/1165810106/6rds-aurora-and-elasticache-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSeMERQeNzh0oz0h7atftemYUREZ6vZutAvlm172Se6oJG-4Og/viewform?usp=publish-editor) |
-| Databases, DNS, and Platform Services | 7. Route 53 | route 53<br>Record Types<br>Hosted Zones<br>Record TTL<br>Alias and Alias Targets Records<br>Routing Policies<br>Simple Based Routing<br>Weighted Based Routing<br>Latency Based Routing<br>Health Check<br>Geolocation Routing<br>Geoproximity Routing<br>IP-based Routing<br>Multi-Value Answer Routing<br>Failover Routing | [Quizlet](https://quizlet.com/tr/1165810661/7route-53-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScK_qHMIAO1WyZ3ZuZtSW4h1KoFVjTCRW_362AYJTTuzaZ-OQ/viewform?usp=publish-editor) |
-| Databases, DNS, and Platform Services | 8. Golden AMI and Elastic Beanstalk | Golden AMI<br>Elastic Beanstalk | [Quizlet](https://quizlet.com/tr/1165811681/8golden-ami-and-elastic-beanstalk-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdYqsu7NlxVKmzqyNRayPzeCaAHQvUkFe9LYIiBmf_BIDQTng/viewform?usp=publish-editor) |
-
-## Storage, Security, and Content Delivery
-
-| Category | Title / Topic | Description | Flashcards | Quiz |
-| --- | --- | --- | --- | --- |
-| Storage, Security, and Content Delivery | 9. Amazon S3 | Amazon S3<br>S3 Lifecycle<br>S3 Object Lock<br>S3 Object Replication<br>S3 Object Batch Operations<br>S3 Block Public Access<br>S3 IAM Access<br>S3 Bucket Policies<br>S3 Static Website<br>S3 Versioning<br>Live Replication<br>On-Demand Replication<br>Cross-Region Replication (CRR)<br>Same-Region Replication (SRR)<br>Frequently Accessed Storage Classes (S3 Standard)<br>Auto-Optimizing (S3 Intelligent-Tiering)<br>Infrequently Accessed (S3 Standard-IA & One Zone-IA)<br>Rarely Accessed (Glacier Classes) | [Quizlet](https://quizlet.com/tr/1165812233/9-amazon-s3-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdWR5KLHQXw4GsiX32Dddzro98MPI2jEq43_s1ihX3XFnHFJQ/viewform?usp=publish-editor) |
-| Storage, Security, and Content Delivery | 10. Amazon S3 - Advance | Requester Pay<br>Event Notification<br>S3 Storage Lens<br>Storage Lens Metrics<br>Storage Lens Metrics Categories<br>Storage Lens Default Dashboard | [Quizlet](https://quizlet.com/tr/1165812588/10amazon-s3-advance-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfcp7tRP55CwFNisSvlxAhha_8gHa5Dxs4bEI3Q3BEliMIKzQ/viewform?usp=publish-editor) |
-| Storage, Security, and Content Delivery | 11. Amazon S3 - Security | S3 Server-Side Encryption (SSE)<br>S3 Encryption with Amazon-Managed Key (SSE-S3)<br>S3 Encryption with AWS KMS (SSE-KMS)<br>S3 Encryption with Customer-Provided Key (SSE-C)<br>S3 Client-Side Encryption<br>S3 In-Transit Encryption<br>S3 CORS<br>S3 MFA Delete<br>S3 Access Logs<br>S3 Pre-signed URLs<br>Glacier Vault Lock<br>S3 Object Lock<br>S3 Access Points<br>S3 Access Points – VPC Origin<br>S3 Access Points – Lambda Functions (S3 Object Lambda) | [Quizlet](https://quizlet.com/tr/1165813044/11amazon-s3-security-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfs1XoIA_POcq9f526FRhcVc3qtXIFYw6eZZurtfNxksrQ3Nw/viewform?usp=publish-editor) |
-| Storage, Security, and Content Delivery | 12. CloudFront and Global Accelerator | CloudFront<br>CloudFront Geo Restriction<br>CloudFront cache invalidation<br>AWS Global Accelerator | [Quizlet](https://quizlet.com/tr/1165813519/12cloudfront-and-global-accelerator-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLScTwK8N-I0R0yU0PjiRsE2vEvH6uBHCLta6548c8Vx6Ywsh9A/viewform?usp=publish-editor) |
-| Storage, Security, and Content Delivery | 13. AWS Storage Extras | AWS Snowball<br>AWS Edge Computing<br>Snowball into Glacier<br>Amazon FSx<br>AWS Storage Gateway<br>AWS File Gateway<br>AWS Volume Gateway<br>AWS Tape Gateway<br>AWS Transfer Family<br>AWS DataSync | [Quizlet](https://quizlet.com/tr/1165814028/13aws-storage-extras-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfy43TuYJhW-logjGKJu4CBKVfi4ghkvVjUX62MVSBhqCgRJQ/viewform?usp=publish-editor) |
-
-## Messaging, Containers, and Serverless
-
-| Category | Title / Topic | Description | Flashcards | Quiz |
-| --- | --- | --- | --- | --- |
-| Messaging, Containers, and Serverless | 14. SQS, SNS, Kinesis, Active MQ | Amazon SQS<br>Amazon SQS Consumer Autoscaling using SQS metrics<br>Amazon SQS Security<br>AWS SQS Visibility Timeout<br>AWS SQS Long Polling<br>AWS SQS FIFO<br>Amazon SNS<br>Amazon SNS Security<br>Amazon SNS + SQS Fan out<br>Amazon Kinesis Data Stream<br>Amazon Data Firehose<br>Amazon Data Firehose vs Amazon Kinesis Data Stream<br>SQS vs SNS vs Kinesis<br>Amazon MQ | [Quizlet](https://quizlet.com/tr/1165814746/14sqs-sns-kinesis-active-mq-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSd6dvHTSuqpawY9kDxIpvumt12g_OR9r3ks_VwWaJIxEKXKNg/viewform?usp=publish-editor) |
-| Messaging, Containers, and Serverless | 15. Containers on AWS: ECS, Fargate, ECR & EKS | AWS Container Management<br>Amazon ECS - EC2 Launch Type<br>Amazon ECS – Fargate Launch Type<br>Amazon ECS – IAM Roles for ECS<br>Amazon ECS – Load Balancer Integrations<br>Amazon ECS – Data Volumes (EFS)<br>Amazon ECS - Auto Scaling<br>Amazon EKS<br>Amazon EKS – Node Types<br>Amazon EKS – Data Volumes<br>AWS App Runner<br>AWS App2Container | [Quizlet](https://quizlet.com/tr/1165994820/15containers-on-aws-ecs-fargate-ecr-eks-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSexbSYlU7WjR3zpFpIzAbKACGIjsub4a9nuPmvp5TQH8VYhKg/viewform?usp=publish-editor) |
-| Messaging, Containers, and Serverless | 16. AWS Server Solutions | Lambda<br>Lambda Concurrency Error<br>Lambda Cold Starts & Provisioned Concurrency<br>Reserved and Provisioned Concurrency<br>lambda snapstart<br>Lambda@Edge & CloudFront Function<br>Amazon DynamoDB<br>Amazon DynamoDB Accelerator (DAX)<br>DynamoDB Accelerator (DAX) vs. ElastiCache<br>DynamoDB – Stream Processing<br>DynamoDB – Stream Processing vs Kinesis Data Streams (Newer)<br>AWS API Gateway<br>AWS API Gateway - Endpoint Types<br>AWS API Gateway - Security<br>AWS Step Functions<br>Amazon Cognito | [Quizlet](https://quizlet.com/tr/1166453189/16aws-server-solutions-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSe3wzwdHgyjqxhT75s4sn1KAbOVdefmOK3bD0ppoRWvF_Lodg/viewform?usp=publish-editor) |
-
-## Data Platforms, Analytics, and Machine Learning
-
-| Category | Title / Topic | Description | Flashcards | Quiz |
-| --- | --- | --- | --- | --- |
-| Data Platforms, Analytics, and Machine Learning | 17. AWS Databases | Amazon RDS<br>Amazon Aurora<br>Amazon ElastiCache<br>Amazon DynamoDB<br>Amazon S3<br>Amazon DocumentDB<br>Amazon Neptune | [Quizlet](https://quizlet.com/tr/1166911459/17aws-databases-expanded-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSd4joFcvAZnip1d5tgSRXFTUntaJANhv_ShHQKarzTC9iy_jg/viewform?usp=publish-editor) |
-| Data Platforms, Analytics, and Machine Learning | 18. Data Analytics | AWS Athena<br>Amazon RedShift<br>Amazon OpenSearch<br>Amazon EMR<br>AWS QuickSight<br>AWS Glue<br>Lake Formation<br>Amazon Managed Service for Apache Flink<br>Amazon Managed Streaming for Apache Kafka (MSK)<br>Amazon Big Data Ingestion Pipeline | [Quizlet](https://quizlet.com/tr/1167740273/18data-analytics-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSfXm9xOhPhOJAO55u0fBMemEaUZyAwwZ3JCkgMLgHluoIelbA/viewform?usp=publish-editor) |
-| Data Platforms, Analytics, and Machine Learning | 19. Machine Learning | Amazon Rekognition<br>Amazon Transcribe<br>Amazon Polly<br>Amazon Translate<br>Amazon Lex<br>Amazon Comprehend<br>Amazon Comprehend Medical<br>Amazon SageMaker<br>Amazon Kendra<br>Amazon Personalize<br>Amazon Textract | [Quizlet](https://quizlet.com/tr/1167980459/19machine-learning-flash-cards/?i=5yz8hi&x=1jqt) | [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdv-47-usGq94KFdZOH7mKnZnk4fBk-UcXi7B_cqxDT57w4wA/viewform?usp=publish-editor) |
