@@ -118,6 +118,10 @@ AWS Key Management Service is a managed service for creating and controlling enc
 
 AWS Lake Formation is a managed service for building, securing, and managing data lakes on AWS. It simplifies permissions, data cataloging, and governance for data stored in services like Amazon S3. For the exam, choose Lake Formation when you need centralized security and governance for a data lake.
 
+## AWS Keyspaces 
+
+Amazon Keyspaces is a fully managed, serverless Apache Cassandra–compatible database service for running scalable NoSQL workloads. Applications use Cassandra Query Language (CQL) to read and write data, while AWS handles provisioning, scaling, and replication automatically. For the exam, choose Keyspaces when you need a Cassandra-compatible database without managing clusters, especially for high-throughput, distributed applications.
+
 ## AWS Network Firewall
 
 AWS Network Firewall is a managed firewall service for protecting traffic inside Amazon VPCs. It supports stateful inspection, domain filtering, intrusion prevention, and centralized network traffic controls. For the exam, choose Network Firewall when you need managed network-layer firewall protection for VPC traffic.
@@ -369,6 +373,10 @@ Amazon Simple Notification Service is a fully managed pub/sub messaging service.
 ## Amazon SQS
 
 Amazon Simple Queue Service is a managed message queue for decoupling application components. It stores messages until consumers process them and supports standard queues for high throughput or FIFO queues for ordered processing. For the exam, choose SQS when you need reliable asynchronous communication between services.
+
+## Amazon Timestream 
+
+Amazon Timestream is a fully managed, serverless time-series database service for storing and analyzing timestamped data at scale. Applications can write metrics, events, IoT sensor data, and operational data, while Timestream automatically manages storage tiers and query performance. For the exam, choose Timestream when you need to store and analyze time-series data such as IoT telemetry, application metrics, logs, or monitoring data.
 
 ## Amazon Textract
 
