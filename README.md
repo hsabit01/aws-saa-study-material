@@ -2,6 +2,8 @@
 
 This README provides a one-view index of every AWS Solutions Architect Associate MCQ resource captured in `MCQ.md`. Use the overview table below to jump directly to the quiz, Quizlet flashcards, and the corresponding notes file for each section.
 
+For a consolidated recap across topics, see [Summary Notes](<notes/summaries.md>).
+
 ## Overview
 
 | Section | Description | Quiz | Flashcard | View Notes |
