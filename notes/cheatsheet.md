@@ -103,4 +103,3 @@
 | Network Load Balancer (NLB) | - Load balance TCP, UDP, or TLS traffic at layer 4<br>- Need very high performance or static IP | - Need path-based HTTP routing<br>- Need web request inspection | TCP, UDP, layer 4, static IP, extreme performance | ALB, GWLB, Global Accelerator |
 | Gateway Load Balancer (GWLB) | - Deploy and scale third-party virtual network appliances<br>- Need transparent traffic inspection | - Need normal app traffic load balancing<br>- Need HTTP path routing | firewall appliance, intrusion prevention, transparent inspection, GENEVE | Network Firewall, NLB, Firewall Manager |
 | VMware Cloud on AWS | - Run VMware workloads on AWS with familiar vSphere tools<br>- Need fast data center extension or VMware migration | - Need native AWS refactor or serverless architecture<br>- Need simple EC2 migration only | VMware, vSphere, data center extension, hybrid migration | Outposts, MGN, EC2, Direct Connect |
-|
